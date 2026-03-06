@@ -28,7 +28,7 @@ function FileList({ atualizarListaRef }) {
       atualizarListaRef.current = carregarArquivos
     }
 
-  }, [])
+  }, [atualizarListaRef])
 
   const deletarArquivo = async (nome) => {
 
